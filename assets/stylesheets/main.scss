@@ -1,4 +1,11 @@
+@font-face {
+    font-family: futura;
+    src: url(../images/Futura.ttc);
+  }
+
+
 body {
+    font-family: futura;
     background: #1C1F21;
 }
 
@@ -43,4 +50,15 @@ body {
 
 .credential {
     color: #4FACE9 !important;
+}
+
+.poweredbyCon{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    &>img {
+        width: 100px;
+        margin-right: 20px;
+    }
 }
