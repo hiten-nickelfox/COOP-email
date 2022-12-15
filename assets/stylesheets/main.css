@@ -1,0 +1,49 @@
+body {
+  background: #1C1F21;
+}
+
+.header-con {
+  height: 40vh;
+  background-image: url("../images/ellipse.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
+  .header-con {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1440px) {
+  .header-con {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 2560px) and (min-width: 2000px) {
+  .header-con {
+    height: 25vh;
+  }
+}
+
+.logo-con {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.logo-con > img {
+  width: 300px;
+}
+
+.linkCon {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.linkCon > a {
+  color: #4FACE9 !important;
+  text-decoration: none !important;
+}
+/*# sourceMappingURL=main.css.map */
