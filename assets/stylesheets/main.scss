@@ -2,36 +2,45 @@ body {
     background: #1C1F21;
 }
 
-.header-con{
+.header-con {
     height: 40vh;
     background-image: url("../images/ellipse.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @media screen and (max-width:1440px) and (min-width:1200px){
-        height: 50vh; 
+
+    @media screen and (max-width:1440px) and (min-width:1200px) {
+        height: 50vh;
     }
-    @media screen and (max-width:2000px) and (min-width:1440px){
-        height: 40vh; 
+
+    @media screen and (max-width:2000px) and (min-width:1440px) {
+        height: 40vh;
     }
-    @media screen and (max-width:2560px) and (min-width:2000px){
-        height: 25vh; 
+
+    @media screen and (max-width:2560px) and (min-width:2000px) {
+        height: 25vh;
     }
 }
 
-.logo-con{
+.logo-con {
     padding-top: 80px;
     padding-bottom: 40px;
-    &>img{
+
+    &>img {
         width: 300px;
     }
 }
 
-.linkCon{
+.linkCon {
     white-space: pre-wrap;
     word-wrap: break-word;
-    &>a{
+
+    &>a {
         color: #4FACE9 !important;
         text-decoration: none !important;
     }
+}
+
+.credential {
+    color: #4FACE9 !important;
 }
